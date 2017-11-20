@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamestore>
+
+
+	<category name="Extra Services" description="Buy an Extra Service to change your character's name or sex." state="normal" icons="Category_ExtraServices.png">
+		
+		<offer name="Character Name Change" type="Namechange" price="250" icons="Product_CharacterNameChange.png" />
+		<offer name="Character Sex Change" type="Sexchange" price="250" icons="Product_CharacterSexChange.png" />
+		<offer name="Character Promotion" type="Promotion" price="50" icons="Category_Boosts.png" />
+		<offer name="crystal coins" description="Get rich or die trying" price="40" type="stackableitem" productid="2160" count="100" icons="" />
+		<offer name="crystal coins" description="Get rich or die trying" price="80" type="stackableitem" productid="2160" count="300" icons="" />
+		<offer name="temple Teleport" description="Go back to your home temple in an instant." price="20" state="new" type="teleport" icons="Product_Transportation_TempleTeleport.png" />
+		<offer name="remover skull" description="We all have a second chance" price="80" type="stackableitem" productid="11144" count="1" icons="11144.png" />
+		<offer name="Bonus exp" description="Bonus EXP!!" price="500" type="stackableitem" productid="16107" count="1" icons="16107.png" />
+		<offer name="Hallowed axe" description="para quest demon oak" price="20" type="stackableitem" productid="8293" count="1" icons="" />
+        <offer name="Gold Pounch" description="" price="900" type="item" productid="26377" count="1" icons="26377.png" />
+
+	</category>
+	
+	<category name="Blessings" description="" state="new" icons="Category_Blessings.png">
+		
+		<offer name="Twist of Fate" type="bless" blessnumber="1" price="30" icons="Product_Blessing_Shielding.png" />
+		<offer name="The Spiritual Shielding" type="bless" blessnumber="5" price="30" icons="Product_Blessing_Shielding.png" />
+		<offer name="The Embrace of Tibia" type="bless" blessnumber="6" price="15" icons="Product_Blessing_Shielding.png" />
+		<offer name="Heart of the Mountain" type="bless" blessnumber="7" price="15" icons="Product_Blessing_Shielding.png" />
+		<offer name="Blood of the Mountain" type="bless" blessnumber="8" price="15" icons="Product_Blessing_Shielding.png" />
+		<offer name="The Fire of the Suns" type="bless" blessnumber="4" price="15" icons="Product_Blessing_Shielding.png" />
+		<offer name="The Spark of the Phoenix" type="bless" blessnumber="3" price="20" icons="Product_Blessing_Shielding.png" />
+		<offer name="The Wisdom of Solitude" type="bless" blessnumber="2" price="15" icons="Product_Blessing_Shielding.png" />
+		
+	</category>
+	
+	<category name="Potions & Kegs" description="Buy potions and kegs" state="normal" icons="Category_Potions.png">
+		
+		<offer name="Health Potion" description="" price="4" type="stackableitem" productid="7618" count="125" icons="7618.png" />
+		<offer name="Health Potion" description="" price="10" type="stackableitem" productid="7618" count="300" icons="7618.png" />
+		<offer name="Strong Health Potion" description="" price="7" type="stackableitem" productid="7588" count="100" icons="7588.png" />
+		<offer name="Strong Health Potion" description="" price="18" type="stackableitem" productid="7588" count="250" icons="7588.png" />
+		<offer name="Great Health Potion" description="" price="13" type="stackableitem" productid="7591" count="100" icons="7591.png" />
+		<offer name="Great Health Potion" description="" price="34" type="stackableitem" productid="7591" count="250" icons="7591.png" />
+		<offer name="Ultimate Health Potion" description="" price="22" type="stackableitem" productid="8473" count="100" icons="8473.png" />
+		<offer name="Ultimate Health Potion" description="" price="55" type="stackableitem" productid="8473" count="250" icons="8473.png" />
+		<offer name="Supreme Health Potion" description="" price="36" type="stackableitem" productid="26031" count="100" icons="26031.png" />
+		<offer name="Supreme Health Potion" description="" price="90" type="stackableitem" productid="26031" count="250" icons="26031.png" />
+		<offer name="Mana Potion" description="" price="4" type="stackableitem" productid="7620" count="125" icons="7620.png" />
+		<offer name="Mana Potion" description="" price="10" type="stackableitem" productid="7620" count="300" icons="7620.png" />
+		<offer name="Strong Mana Potion" description="" price="6" type="stackableitem" productid="7589" count="100" icons="7589.png" />
+		<offer name="Strong Mana Potion" description="" price="14" type="stackableitem" productid="7589" count="250" icons="7589.png" />
+		<offer name="Great Mana Potion" description="" price="9" type="stackableitem" productid="7590" count="100" icons="7590.png" />
+		<offer name="Great Mana Potion" description="" price="21" type="stackableitem" productid="7590" count="250" icons="7590.png" />
+		<offer name="Ultimate Mana Potion" description="" price="25" type="stackableitem" productid="26029" count="100" icons="26029.png" />
+		<offer name="Ultimate Mana Potion" description="" price="63" type="stackableitem" productid="26029" count="250" icons="26029.png" />
+		<offer name="Great Spirit Potion" description="" price="13" type="stackableitem" productid="8472" count="100" icons="8472.png" />
+		<offer name="Great Spirit Potion" description="" price="34" type="stackableitem" productid="8472" count="250" icons="8472.png" />
+		<offer name="Ultimate Spirit Potion" description="" price="25" type="stackableitem" productid="26030" count="100" icons="26030.png" />
+		<offer name="Ultimate Spirit Potion" description="" price="63" type="stackableitem" productid="26030" count="250" icons="26030.png" />
+	
+	</category>
+	
+	<category name="Outfits" description="Look cooler!" state="sale" icons="Category_Outfits.png">
+		
+		<offer name="new outfits 2" description="" type="outfit" addon="3" malelooktype="1024" femalelooktype="1023" price="870" icons="retro.png" />
+		<offer name="new outfits" description="" type="outfit" addon="3" malelooktype="1021" femalelooktype="1020" price="870" icons="retro.png" />
+		<offer name="Retro Citizen" description="" type="outfit" addon="3" malelooktype="974" femalelooktype="975" price="870" icons="retro.png" />
+		<offer name="Retro Hunter" description="" type="outfit" addon="3" malelooktype="972" femalelooktype="973" price="870" icons="retro.png" />
+		<offer name="Retro Knight" description="" type="outfit" addon="3" malelooktype="970" femalelooktype="971" price="870" icons="retro.png" />
+		<offer name="Retro Wizard" description="" type="outfit" addon="3" malelooktype="968" femalelooktype="969" price="870" icons="retro.png" />
+		<offer name="Retro Noblewoman" description="" type="outfit" addon="3" malelooktype="966" femalelooktype="967" price="870" icons="retro.png" />
+		<offer name="Retro Summoner" description="" type="outfit" addon="3" malelooktype="964" femalelooktype="965" price="870" icons="retro.png" />
+		<offer name="Retro Warrior" description="" type="outfit" addon="3" malelooktype="962" femalelooktype="963" price="870" icons="retro.png" />
+		<offer name="Full Pharaoh OutFits" description="" type="outfit" addon="3" malelooktype="955" femalelooktype="956" price="750" icons="f955.png" />
+        <offer name="Assassin OutFits Addon" description="" type="outfit" addon="3" malelooktype="152" femalelooktype="156" price="870" icons="f908.png" />
+		<offer name="Full Grove Keeper OutFits" description="" type="outfit" addon="3" malelooktype="908" femalelooktype="909" price="870" icons="f908.png" />
+		<offer name="Grove Keeper Outfits" description="" type="outfit" addon="0" malelooktype="908" femalelooktype="909" price="690" icons="f908.png" />
+		<offer name="Grove Keeper Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="908" femalelooktype="909" price="120" icons="f908.png" />
+		<offer name="Grove Keeper Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="908" femalelooktype="909" price="120" icons="f908.png" />
+		<offer name="Full Champion Outfits" description="" type="outfit" addon="3" malelooktype="633" femalelooktype="632" price="570" icons="f633.png" />
+		<offer name="Champion Outfits" description="" type="outfit" addon="0" malelooktype="633" femalelooktype="632" price="390" icons="f633.png" />
+		<offer name="Champion Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="633" femalelooktype="632" price="120" icons="f633.png" />
+		<offer name="Champion Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="633" femalelooktype="632" price="120" icons="f633.png" />
+		<offer name="Full Conjurer Outfits" description="" type="outfit" addon="3" malelooktype="634" femalelooktype="635" price="720" icons="f634.png" />
+		<offer name="Conjurer Outfits" description="" type="outfit" addon="0" malelooktype="634" femalelooktype="635" price="540" icons="f634.png" />
+		<offer name="Conjurer Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="634" femalelooktype="635" price="120" icons="f634.png" />
+		<offer name="Conjurer Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="634" femalelooktype="635" price="120" icons="f634.png" />
+		<offer name="Full Lupine Warden Outfits" description="" type="outfit" addon="3" malelooktype="899" femalelooktype="900" price="840" icons="f899.png" />
+		<offer name="Lupine Warden Outfits" description="" type="outfit" addon="0" malelooktype="899" femalelooktype="900" price="660" icons="f899.png" />
+		<offer name="Lupine Warden Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="899" femalelooktype="900" price="120" icons="f899.png" />
+		<offer name="Lupine Warden Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="899" femalelooktype="900" price="120" icons="f899.png" />
+		<offer name="Full Arena Champion Outfits" description="" type="outfit" addon="3" malelooktype="884" femalelooktype="885" price="870" icons="f884.png" />
+		<offer name="Arena Champion Outfits" description="" type="outfit" addon="0" malelooktype="884" femalelooktype="885" price="690" icons="f884.png" />
+		<offer name="Arena Champion Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="884" femalelooktype="885" price="120" icons="f884.png" />
+		<offer name="Arena Champion Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="884" femalelooktype="885" price="120" icons="f884.png" />
+		<offer name="Full Beastmaster Outfits" description="" type="outfit" addon="3" malelooktype="637" femalelooktype="636" price="870" icons="f637.png" />
+		<offer name="Beastmaster Outfits" description="" type="outfit" addon="0" malelooktype="637" femalelooktype="636" price="690" icons="f637.png" />
+		<offer name="Beastmaster Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="637" femalelooktype="636" price="120" icons="f637.png" />
+		<offer name="Beastmaster Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="637" femalelooktype="636" price="120" icons="f637.png" />
+		<offer name="Full Winter Warden Outfits" description="" type="outfit" addon="3" malelooktype="853" femalelooktype="852" price="870" icons="f853.png" />
+		<offer name="Winter Warden Outfits" description="" type="outfit" addon="0" malelooktype="853" femalelooktype="852" price="690" icons="f853.png" />
+		<offer name="Winter Warden Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="853" femalelooktype="852" price="120" icons="f853.png" />
+		<offer name="Winter Warden Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="853" femalelooktype="852" price="120" icons="f853.png" />
+		<offer name="Full Chaos Acolyte Outfits" description="" type="outfit" addon="3" malelooktype="665" femalelooktype="664" price="900" icons="f665.png" />
+		<offer name="Chaos Acolyte Outfits" description="" type="outfit" addon="0" malelooktype="665" femalelooktype="664" price="720" icons="f665.png" />
+		<offer name="Chaos Acolyte Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="665" femalelooktype="664" price="120" icons="f665.png" />
+		<offer name="Chaos Acolyte Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="665" femalelooktype="664" price="120" icons="f665.png" />
+		<offer name="Full Death Herald Outfits" description="" type="outfit" addon="3" malelooktype="667" femalelooktype="666" price="600" icons="f667.png" />
+		<offer name="Death Herald Outfits" description="" type="outfit" addon="0" malelooktype="667" femalelooktype="666" price="420" icons="f667.png" />
+		<offer name="Death Herald Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="667" femalelooktype="666" price="120" icons="f667.png" />
+		<offer name="Death Herald Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="667" femalelooktype="666" price="120" icons="f667.png" />
+		<offer name="Full Philosopher Outfits" description="" type="outfit" addon="3" malelooktype="873" femalelooktype="874" price="750" icons="f873.png" />
+		<offer name="Philosopher Outfits" description="" type="outfit" addon="0" malelooktype="873" femalelooktype="874" price="570" icons="f873.png" />
+		<offer name="Philosopher Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="873" femalelooktype="874" price="120" icons="f873.png" />
+		<offer name="Philosopher Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="873" femalelooktype="874" price="120" icons="f873.png" />
+		<offer name="Full Ranger Outfits" description="" type="outfit" addon="3" malelooktype="684" femalelooktype="683" price="750" icons="f684.png" />
+		<offer name="Ranger Outfits" description="" type="outfit" addon="0" malelooktype="684" femalelooktype="683" price="570" icons="f684.png" />
+		<offer name="Ranger Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="684" femalelooktype="683" price="120" icons="f684.png" />
+		<offer name="Ranger Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="684" femalelooktype="683" price="120" icons="f684.png" />
+		<offer name="Full Ceremonial Garb Outfits" description="" type="outfit" addon="3" malelooktype="695" femalelooktype="30" price="750" icons="f695.png" />
+		<offer name="Ceremonial Garb Outfits" description="" type="outfit" addon="0" malelooktype="695" femalelooktype="30" price="570" icons="f695.png" />
+		<offer name="Ceremonial Garb Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="695" femalelooktype="30" price="120" icons="f695.png" />
+		<offer name="Ceremonial Garb Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="695" femalelooktype="30" price="120" icons="f695.png" />
+		<offer name="Full Royal Pumpkin Outfits" description="" type="outfit" addon="3" malelooktype="760" femalelooktype="759" price="840" icons="f760.png" />
+		<offer name="Royal Pumpkin Outfits" description="" type="outfit" addon="0" malelooktype="760" femalelooktype="759" price="660" icons="f760.png" />
+		<offer name="Royal Pumpkin Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="760" femalelooktype="759" price="120" icons="f760.png" />
+		<offer name="Royal Pumpkin Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="760" femalelooktype="759" price="120" icons="f760.png" />
+		<offer name="Full Puppeteer Outfits" description="" type="outfit" addon="3" malelooktype="697" femalelooktype="696" price="870" icons="f697.png" />
+		<offer name="Puppeteer Outfits" description="" type="outfit" addon="0" malelooktype="697" femalelooktype="696" price="690" icons="f697.png" />
+		<offer name="Puppeteer Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="697" femalelooktype="696" price="120" icons="f697.png" />
+		<offer name="Puppeteer Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="697" femalelooktype="696" price="120" icons="f697.png" />
+		<offer name="Full Spirit Caller Outfits" description="" type="outfit" addon="3" malelooktype="699" femalelooktype="698" price="600" icons="f699.png" />
+		<offer name="Spirit Caller Outfits" description="" type="outfit" addon="0" malelooktype="699" femalelooktype="698" price="420" icons="f699.png" />
+		<offer name="Spirit Caller Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="699" femalelooktype="698" price="120" icons="f699.png" />
+		<offer name="Spirit Caller Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="699" femalelooktype="698" price="120" icons="f699.png" />
+		<offer name="Full Evoker Outfits" description="" type="outfit" addon="3" malelooktype="725" femalelooktype="724" price="840" icons="f725.png" />
+		<offer name="Evoker Outfits" description="" type="outfit" addon="0" malelooktype="725" femalelooktype="724" price="660" icons="f725.png" />
+		<offer name="Evoker Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="725" femalelooktype="724" price="120" icons="f725.png" />
+		<offer name="Evoker Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="725" femalelooktype="724" price="120" icons="f725.png" />
+		<offer name="Full Seaweaver Outfits" description="" type="outfit" addon="3" malelooktype="733" femalelooktype="732" price="570" icons="f733.png" />
+		<offer name="Seaweaver Outfits" description="" type="outfit" addon="0" malelooktype="733" femalelooktype="732" price="390" icons="f733.png" />
+		<offer name="Seaweaver Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="733" femalelooktype="732" price="120" icons="f733.png" />
+		<offer name="Seaweaver Outfits Addon 2" description="" type="outfit" addon="2" malelooktype="733" femalelooktype="732" price="120" icons="f733.png" />
+		<offer name="Full Sea Dog Outfits" description="" type="outfit" addon="3" malelooktype="750" femalelooktype="749" price="600" icons="f750.png" />
+		<offer name="Sea Dog Outfits" description="" type="outfit" addon="0" malelooktype="750" femalelooktype="749" price="420" icons="f750.png" />
+		<offer name="Sea Dog Outfits Addon 1" description="" type="outfit" addon="1" malelooktype="750" femalelooktype="749" price="120" icons="f750.png" />
+		<offer name="Sea Dog Outfits Addon 1" description="" type="outfit" addon="2" malelooktype="750" femalelooktype="749" price="120" icons="f750.png" />
+	
+	</category>
+	
+	<category name="Mounts" description="Buy your character one or more of the fabolous mounts offered here." state="sale" icons="Category_Mounts.png">
+		
+		<offer name="Desert King" type="mount" mountid="41" description="Buying this mount will help our server survive!" price="250" icons="o572.png" />
+		<offer name="Jade Lion" type="mount" mountid="48" description="Buying this mount will help our server survive!" price="250" icons="o627.png" />
+		<offer name="Winter King" type="mount" mountid="52" description="Buying this mount will help our server survive!" price="250" icons="o631.png" />
+		<offer name="Coralripper" type="mount" mountid="79" description="Buying this mount will help our server survive!" price="270" icons="o735.png" />
+		<offer name="Plumfish" type="mount" mountid="80" description="Buying this mount will help our server survive!" price="270" icons="o736.png" />
+		<offer name="Sea Devil" type="mount" mountid="78" description="Buying this mount will help our server survive!" price="270" icons="o734.png" />
+		<offer name="Copper Fly" type="mount" mountid="61" description="Buying this mount will help our server survive!" price="300" icons="o671.png" />
+		<offer name="Golden Dragonfly" type="mount" mountid="59" description="Buying this mount will help our server survive!" price="300" icons="o669.png" />
+		<offer name="Steel Bee" type="mount" mountid="60" description="Buying this mount will help our server survive!" price="300" icons="o670.png" />
+		<offer name="Death Crawler" type="mount" mountid="46" description="Buying this mount will help our server survive!" price="300" icons="o624.png" />
+		<offer name="Jade Pincer" type="mount" mountid="49" description="Buying this mount will help our server survive!" price="300" icons="o628.png" />
+		<offer name="Tombstinger" type="mount" mountid="36" description="Buying this mount will help our server survive!" price="300" icons="o546.png" />
+		<offer name="Black Stag" type="mount" mountid="73" description="Buying this mount will help our server survive!" price="360" icons="o692.png" />
+		<offer name="Emperor Deer" type="mount" mountid="74" description="Buying this mount will help our server survive!" price="360" icons="o693.png" />
+		<offer name="Shadow Hart" type="mount" mountid="72" description="Buying this mount will help our server survive!" price="360" icons="o691.png" />
+		<offer name="Blackpelt" type="mount" mountid="58" description="Buying this mount will help our server survive!" price="390" icons="o651.png" />
+		<offer name="Poisonbane" type="mount" mountid="57" description="Buying this mount will help our server survive!" price="390" icons="o650.png" />
+		<offer name="Siegebreaker" type="mount" mountid="56" description="Buying this mount will help our server survive!" price="390" icons="o649.png" />
+		<offer name="Mould Shell" type="mount" mountid="96" description="Buying this mount will help our server survive!" price="390" icons="o887.png" />
+		<offer name="Reed Lurker" type="mount" mountid="97" description="Buying this mount will help our server survive!" price="390" icons="o888.png" />
+		<offer name="Swamp Snapper" type="mount" mountid="95" description="Buying this mount will help our server survive!" price="390" icons="o886.png" />
+		<offer name="Gorongra" type="mount" mountid="81" description="Buying this mount will help our server survive!" price="420" icons="o738.png" />
+		<offer name="Noctungra" type="mount" mountid="82" description="Buying this mount will help our server survive!" price="420" icons="o739.png" />
+		<offer name="Silverneck" type="mount" mountid="83" description="Buying this mount will help our server survive!" price="420" icons="o740.png" />
+		<offer name="Bloodcurl" type="mount" mountid="92" description="Buying this mount will help our server survive!" price="450" icons="o869.png" />
+		<offer name="Leafscuttler" type="mount" mountid="93" description="Buying this mount will help our server survive!" price="450" icons="o870.png" />
+		<offer name="Mouldpincer" type="mount" mountid="91" description="Buying this mount will help our server survive!" price="450" icons="o868.png" />
+		<offer name="Emerald Waccoon" type="mount" mountid="70" description="Buying this mount will help our server survive!" price="450" icons="o689.png" />
+		<offer name="Night Waccoon" type="mount" mountid="69" description="Buying this mount will help our server survive!" price="450" icons="o688.png" />
+		<offer name="Ringtail Waccoon" type="mount" mountid="68" description="Buying this mount will help our server survive!" price="450" icons="o687.png" />
+		<offer name="Glacier Vagabond" type="mount" mountid="64" description="Buying this mount will help our server survive!" price="450" icons="o674.png" />
+		<offer name="Highland Yak" type="mount" mountid="63" description="Buying this mount will help our server survive!" price="450" icons="o673.png" />
+		<offer name="Tundra Rambler" type="mount" mountid="62" description="Buying this mount will help our server survive!" price="450" icons="o672.png" />
+		<offer name="Ivory Fang" type="mount" mountid="100" description="Buying this mount will help our server survive!" price="450" icons="o901.png" />
+		<offer name="Shadow Claw" type="mount" mountid="101" description="Buying this mount will help our server survive!" price="450" icons="o902.png" />
+		<offer name="Snow Pelt" type="mount" mountid="102" description="Buying this mount will help our server survive!" price="350" icons="o903.png" />
+		<offer name="Doombringer" type="mount" mountid="53" description="Buying this mount will help our server survive!" price="380" icons="o644.png" />
+		<offer name="Hailtorm Fury" type="mount" mountid="55" description="Buying this mount will help our server survive!" price="380" icons="o648.png" />
+		<offer name="Woodland Princes" type="mount" mountid="54" description="Buying this mount will help our server survive!" price="380" icons="o647.png" />
+		<offer name="Nightstinger" type="mount" mountid="85" description="Buying this mount will help our server survive!" price="380" icons="o762.png" />
+		<offer name="Razorcreep" type="mount" mountid="86" description="Buying this mount will help our server survive!" price="380" icons="o763.png" />
+		<offer name="Slagsnare" type="mount" mountid="84" description="Buying this mount will help our server survive!" price="380" icons="o761.png" />
+		<offer name="Batcat" type="mount" mountid="77" description="Buying this mount will help our server survive!" price="370" icons="o728.png" />
+		<offer name="Flitterkatzen" type="mount" mountid="75" description="Buying this mount will help our server survive!" price="370" icons="o726.png" />
+		<offer name="Venompaw" type="mount" mountid="76" description="Buying this mount will help our server survive!" price="370" icons="o727.png" />
+		<offer name="Cinderhoof" type="mount" mountid="90" description="Buying this mount will help our server survive!" price="370" icons="o851.png" />
+		<offer name="Frostflare" type="mount" mountid="89" description="Buying this mount will help our server survive!" price="370" icons="o850.png" />
+		<offer name="Nightdweller" type="mount" mountid="88" description="Buying this mount will help our server survive!" price="370" icons="o849.png" />
+		<offer name="Jackalope" type="mount" mountid="103" description="Buying this mount will help our server survive!" price="370" icons="o905.png" />
+		<offer name="Dreadhare" type="mount" mountid="104" description="Buying this mount will help our server survive!" price="370" icons="o907.png" />
+		<offer name="Wolpertinger" type="mount" mountid="105" description="Buying this mount will help our server survive!" price="370" icons="o906.png" />
+		<offer name="Flamesteed" type="mount" mountid="47" description="Buying this mount will help our server survive!" price="400" icons="o626.png" />
+		<offer name="Nethersteed" type="mount" mountid="50" description="Buying this mount will help our server survive!" price="400" icons="o629.png" />
+		<offer name="Tempest" type="mount" mountid="51" description="Buying this mount will help our server survive!" price="400" icons="o630.png" />
+		<offer name="Floating Kashmir" type="mount" mountid="67" description="Buying this mount will help our server survive!" price="400" icons="o686.png" />
+		<offer name="Flying Divan" type="mount" mountid="65" description="Buying this mount will help our server survive!" price="400" icons="o682.png" />
+		<offer name="Magic Carpet" type="mount" mountid="66" description="Buying this mount will help our server survive!" price="400" icons="o685.png" />
+	
+	</category>
+
+	<category name="Vips" description="Items Vips" state="new" icons="Category_Runes.png">
+	    
+		<offer name="Axe of Carving (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25970" count="1" icons="" />
+	    <offer name="Axe of Mayhem (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25911" count="1" icons="" />
+		<offer name="Axe of Remedy (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25930" count="1" icons="" />
+		
+		<offer name="Chopper of Carving (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25974" count="1" icons="" />
+	    <offer name="Chopper of Mayhem (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25912" count="1" icons="" />
+		<offer name="Chopper of Remedy (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25934" count="1" icons="" />
+
+		<offer name="Blade of Carving (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25962" count="1" icons="" />
+		<offer name="Blade of Mayhem (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25909" count="1" icons="" />
+		<offer name="Blade of Remedy (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25922" count="1" icons="" />
+		<offer name="Slayer of Carving (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25966" count="1" icons="" />
+		<offer name="Slayer of Mayhem (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25910" count="1" icons="" />
+		<offer name="Slayer of Remedy (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25926" count="1" icons="" />
+
+		<offer name="Mace of Carving (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25978" count="1" icons="" />
+		<offer name="Mace of Mayhem (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25913" count="1" icons="" />
+		<offer name="Mace of Remedy (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25938" count="1" icons="" />
+		<offer name="Hammer of Carving (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25982" count="1" icons="" />
+	    <offer name="Hammer of Mayhem (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25914" count="1" icons="" />
+		<offer name="Hammer of Remedy (overcharged)" description="Only for Knights lvl 250+" price="400" type="stackableitem" productid="25942" count="1" icons="" />
+		
+		<offer name="Bow of Carving (overcharged)" description="Only for Paladins lvl 250+" price="400" type="stackableitem" productid="25986" count="1" icons="" />
+		<offer name="Bow of Mayhem (overcharged)" description="Only for Paladins lvl 250+" price="400" type="stackableitem" productid="25915" count="1" icons="" />
+		<offer name="Bow of Remedy (overcharged)" description="Only for Paladins lvl 250+" price="400" type="stackableitem" productid="25946" count="1" icons="" />
+		<offer name="Crossbow of Carving (overcharged)" description="Only for Paladins lvl 250+" price="400" type="stackableitem" productid="25990" count="1" icons="" />
+		<offer name="Crossbow of Mayhem (overcharged)" description="Only for Paladins lvl 250+" price="400" type="stackableitem" productid="25916" count="1" icons="" />
+		<offer name="Crossbow of Remedy (overcharged)" description="Only for Paladins lvl 250+" price="400" type="stackableitem" productid="25950" count="1" icons="" />
+
+		<offer name="Rod of Carving (overcharged)" description="Only for Druids lvl 250+" price="400" type="stackableitem" productid="25998" count="1" icons="" />
+		<offer name="Rod of Mayhem (overcharged)" description="Only for Druids lvl 250+" price="400" type="stackableitem" productid="25918" count="1" icons="" />
+		<offer name="Rod of Remedy (overcharged)" description="Only for Druids lvl 250+" price="400" type="stackableitem" productid="25958" count="1" icons="" />
+	
+		<offer name="Wand of Carving (overcharged)" description="Only for Sorcerers lvl 250+" price="400" type="stackableitem" productid="25994" count="1" icons="" />
+        <offer name="Wand of Mayhem (overcharged)" description="Only for Sorcerers lvl 250+" price="400" type="stackableitem" productid="25917" count="1" icons="" />
+		<offer name="Wand of Remedy (overcharged)" description="Only for Sorcerers lvl 250+" price="400" type="stackableitem" productid="25954" count="1" icons="" />
+	
+	</category>
+	
+	<category name="Equipment For Knights" description="Compra lo mejor aquí" state="sale" icons="Items.png">		    
+			
+		 <offer name="Earthheart Platemail" description="Become rich!" price="200" type="stackableitem" productid="25179" count="1" icons="25179.png" />
+		 <offer name="Earthheart Hauberk" description="Become rich!" price="200" type="stackableitem" productid="25178" count="1" icons="25178.png" />
+		 <offer name="Earthheart Cuirass" description="Become rich!" price="200" type="stackableitem"  productid="25177" count="1" icons="25177.png" />
+		 <offer name="Frostheart Platemail" description="Become rich!" price="200" type="stackableitem" productid="25185" count="1" icons="25185.png" />
+		 <offer name="Frostheart Hauberk" description="Become rich!" price="200" type="stackableitem" productid="25184" count="1" icons="25184.png" />
+		 <offer name="Frostheart Cuirass" description="Become rich!" price="200" type="stackableitem" productid="25183" count="1" icons="25183.png" />
+		 <offer name="Thunderheart Platemail" description="Become rich!" price="200" type="stackableitem" productid="25182" count="1" icons="25182.png" />
+		 <offer name="Thunderheart Hauberk" description="Become rich!" price="200" type="stackableitem" productid="25181" count="1" icons="25181.png" />
+		 <offer name="Thunderheart Cuirass" description="Become rich!" price="200" type="stackableitem" productid="25180" count="1" icons="25180.png" />
+		 <offer name="Fireheart Platemail" description="Become rich!" price="200" type="stackableitem" productid="25176" count="1" icons="25176.png" />
+		 <offer name="Fireheart Hauberk" description="Become rich!" price="200" type="stackableitem" productid="25175" count="1" icons="25175.png" />
+		 <offer name="Fireheart Cuirass" description="Become rich!" price="200" type="stackableitem" productid="25174" count="1" icons="25174.png" />
+		 <offer name="Shiny Blade" description="Become rich!" price="120" type="stackableitem" productid="18465" count="1" icons="18465.png" />
+		 <offer name="Crystaline Axe" description="Become rich!" price="120" type="stackableitem" productid="18451" count="1" icons="18451.png" />
+		 <offer name="Mycological Mace" description="Become rich!" price="100" type="stackableitem" productid="18452" count="1" icons="18452.png" />
+		 <offer name="Umbral Blade" description="Become rich!" price="90" type="stackableitem" productid="22399" count="1" icons="22399.png" />
+		 <offer name="Umbral Masterblade" description="Become rich!" price="180" type="stackableitem" productid="22400" count="1" icons="22400.png" />
+		 <offer name="umbral Slayer" description="Become rich!" price="90" type="stackableitem" productid="22402" count="1" icons="22402.png" />
+		 <offer name="Umbral Hammer" description="Become rich!" price="90" type="stackableitem" productid="22414" count="1" icons="22414.png" />
+		 <offer name="Umbral Master Hammer" description="Become rich!" price="150" type="stackableitem" productid="22415" count="1" icons="22415.png" />
+		 <offer name="Umbral Mace" description="Become rich!" price="100" type="stackableitem" productid="22411" count="1" icons="22411.png" />
+		 <offer name="Umbral master Chopper" description="Become rich!" price="200" type="stackableitem" productid="22409" count="1" icons="22409.png" />
+	     <offer name="Umbral Master Axe" description="Become rich!" price="190" type="stackableitem" productid="22406" count="1" icons="22406.png" />
+		 <offer name="Umbral Axe" description="Become rich!" price="100" type="stackableitem" productid="22405" count="1" icons="22405.png" />
+		 <offer name="Umbral Master Slayer" description="Become rich!" price="190" type="stackableitem" productid="22403" count="1" icons="22403.png" />
+		 <offer name="Umbral Chopper" description="Become rich!" price="90" type="stackableitem" productid="22408" count="1" icons="22408.png" />
+		 <offer name="Prismatic Helmet" description="Become a Duro, spend all your TC!" price="100" type="stackableitem" productid="18403" count="1" icons="18403.png" />
+		 <offer name="Fire Born Giant Armor" description="Become a Duro, spend all your TC!" price="50" type="stackableitem" productid="8881" count="1" icons="8881.png" />
+		 <offer name="Royal Draken Mail" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="12642" count="1" icons="12642.png" />
+		 <offer name="Pornate Chestlate" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="15406" count="1" icons="15406.png" />
+		 <offer name="Earthborn Titan Armor" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="8882" count="1" icons="8882.png" />
+		 <offer name="Wind Born Colossus Armor" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="8883" count="1" icons="8883.png" />
+		 <offer name="Ornate Legs" description="Become a Duro, spend all your TC!" price="200" type="stackableitem" productid="15412" count="1" icons="15412.png" />
+		 <offer name="Shield of Corruption" description="Become a Duro, spend all your TC!" price="100" type="stackableitem" productid="12644" count="1" icons="12644.png" />
+		 <offer name="Prismatic Shield" description="Become a Duro, spend all your TC!" price="200" type="stackableitem" productid="18410" count="1" icons="18410.png" />
+		 <offer name="Ornate Shield" description="Become a Duro, spend all your TC!" price="200" type="stackableitem" productid="15413" count="1" icons="15413.png" />
+
+	</category>
+	
+	<category name="Equipment For Paladins" description="Compra lo mejor aquí" state="sale" icons="Items.png">
+			
+		 <offer name="Firesoul Tabard" description="Become rich!" price="200" type="stackableitem" productid="25186" count="1" icons="25186.png" />
+		 <offer name="Frostsoul Tabard" description="Become rich!" price="200" type="stackableitem" productid="25189" count="1" icons="25189.png" />
+		 <offer name="Thundersoul Tabard" description="Become rich!" price="200" type="stackableitem" productid="25188" count="1" icons="25188.png" />
+		 <offer name="Earthsoul Tabard" description="Become rich!" price="200" type="stackableitem" productid="25187" count="1" icons="25187.png" />
+		 <offer name="Crystal Crossbow" description="Become rich!" price="150" type="stackableitem" productid="18453" count="1" icons="18453.png" />
+		 <offer name="Mycological Bow" description="Become rich!" price="150" type="stackableitem" productid="18454" count="1" icons="18454.png" />
+		 <offer name="Umbral bow" description="Become rich!" price="120" type="stackableitem" productid="22417" count="1" icons="22417.png" />
+		 <offer name="Umbral Master bow" description="Become rich!" price="250" type="stackableitem" productid="22418" count="1" icons="22418.png" />
+		 <offer name="Umbral Crossbow" description="Become rich!" price="120" type="stackableitem" productid="22420" count="1" icons="22420.png" />
+		 <offer name="Umbral Master Crossbow" description="Become rich!" price="250" type="stackableitem" productid="22421" count="1" icons="22421.png" />
+		 <offer name="Elite Draken Helmet" description="Become a Duro, spend all your TC!" price="200" type="stackableitem" productid="12645" count="1" icons="12645.png" />
+		 <offer name="Depth Lorica" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="15407" count="1" icons="15407.png" />
+		 <offer name="Master Acher's Armor" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="8888" count="1" icons="8888.png" />
+		 <offer name="Primatic Legs" description="Become a Duro, spend all your TC!" price="130" type="stackableitem" productid="18405" count="1" icons="18405.png" />
+
+	</category>
+	
+	<category name="Equipment For Sorcerers" description="Compra lo mejor aquí" state="sale" icons="Items.png">
+	
+         <offer name="Thundermind Raiment" description="Become rich!" price="200" type="stackableitem" productid="25192" count="1" icons="25192.png" />
+	     <offer name="Frostmind Raiment" description="Become rich!" price="200" type="stackableitem" productid="25193" count="1" icons="25193.png" />
+         <offer name="Earthmind Raiment" description="Become rich!" price="200" type="stackableitem" productid="25191" count="1" icons="25191.png" />
+         <offer name="Firemind Raiment" description="Become rich!" price="200" type="stackableitem" productid="25190" count="1" icons="25190.png" />
+         <offer name="Wand of Defiance" description="Become rich!" price="120" type="stackableitem" productid="18390" count="1" icons="18390.png" />
+         <offer name="Spelbook of Dark Mysteries" description="Become rich!" price="150" type="stackableitem" productid="8918" count="1" icons="8918.png" />
+         <offer name="Wand of Everblazing" description="Become rich!" price="120" type="stackableitem" productid="18409" count="1" icons="18409.png" />
+	     <offer name="Gill Gugel" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="18398" count="1" icons="18398.png" />
+	   	 <offer name="Gill Coat" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="18399" count="1" icons="18399.png" />
+		 <offer name="Furios Frock" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="21725" count="1" icons="21725.png" />
+		 <offer name="Depth Ocrea" description="Become a Duro, spend all your TC!" price="50" type="stackableitem" productid="15409" count="1" icons="15409.png" />
+		 <offer name="Gill Legs" description="Become a Duro, spend all your TC!" price="200" type="stackableitem" productid="18400" count="1" icons="18400.png" />
+		 <offer name="Icy Culotte" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="21700" count="1" icons="21700.png" />
+		 <offer name="Depth Scutum" description="Become a Duro, spend all your TC!" price="50" type="stackableitem" productid="15411" count="1" icons="15411.png" />
+		 <offer name="Spelbook of Vigilance" description="Become a Duro, spend all your TC!" price="60" type="stackableitem" productid="18401" count="1" icons="18401.png" />
+		 <offer name="Spellbook of Ancient Arcana" description="Become a Duro, spend all your TC!" price="80" type="stackableitem" productid="16112" count="1" icons="16112.png" />
+		 <offer name="Umbral spellbook" description="Become a Duro, spend all your TC!" price="100" type="stackableitem" productid="22423" count="1" icons="22423.png" />
+		 <offer name="Umbral Master Spellbook" description="Become a Duro, spend all your TC!" price="175" type="stackableitem" productid="22424" count="1" icons="22424.png" />
+
+	</category>
+	
+	<category name="Equipment For Druids" description="Compra lo mejor aquí" state="sale" icons="Items.png">
+	
+         <offer name="Thundermind Raiment" description="Become rich!" price="200" type="stackableitem" productid="25192" count="1" icons="25192.png" />	
+         <offer name="Frostmind Raiment" description="Become rich!" price="200" type="stackableitem" productid="25193" count="1" icons="25193.png" />	
+         <offer name="Earthmind Raiment" description="Become rich!" price="200" type="stackableitem" productid="25191" count="1" icons="25191.png" />	
+         <offer name="Firemind Raiment" description="Become rich!" price="200" type="stackableitem" productid="25190" count="1" icons="25190.png" />	
+         <offer name="Glacial Rod" description="Become rich!" price="120" type="stackableitem" productid="18412" count="1" icons="18412.png" />	
+         <offer name="Muck Rod" description="Become rich!" price="100" type="stackableitem" productid="18411" count="1" icons="18411.png" />	
+         <offer name="Spelbook of Dark Mysteries" description="Become rich!" price="150" type="stackableitem" productid="8918" count="1" icons="8918.png" />	
+	   	 <offer name="Gill Coat" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="18399" count="1" icons="18399.png" />
+		 <offer name="Furios Frock" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="21725" count="1" icons="21725.png" />
+		 <offer name="Depth Ocrea" description="Become a Duro, spend all your TC!" price="50" type="stackableitem" productid="15409" count="1" icons="15409.png" />
+		 <offer name="Gill Legs" description="Become a Duro, spend all your TC!" price="200" type="stackableitem" productid="18400" count="1" icons="18400.png" />
+		 <offer name="Icy Culotte" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="21700" count="1" icons="21700.png" />
+		 <offer name="Depth Scutum" description="Become a Duro, spend all your TC!" price="50" type="stackableitem" productid="15411" count="1" icons="15411.png" />
+		 <offer name="Spelbook of Vigilance" description="Become a Duro, spend all your TC!" price="60" type="stackableitem" productid="18401" count="1" icons="18401.png" />
+		 <offer name="Spellbook of Ancient Arcana" description="Become a Duro, spend all your TC!" price="80" type="stackableitem" productid="16112" count="1" icons="16112.png" />
+		 <offer name="Umbral spellbook" description="Become a Duro, spend all your TC!" price="100" type="stackableitem" productid="22423" count="1" icons="22423.png" />
+		 <offer name="Umbral Master Spellbook" description="Become a Duro, spend all your TC!" price="175" type="stackableitem" productid="22424" count="1" icons="22424.png" />
+
+	</category>
+	
+	<category name="Miscellaneous Equipment" description="Miscellaneous Equipment" state="new" icons="Category_usefulthings.png">
+		
+	     <offer name="Demon Armor" description="Become a Duro, spend all your TC!" price="50" type="stackableitem" productid="2494" count="1" icons="2494.png" />
+		 <offer name="Demon Legs" description="Become a Duro, spend all your TC!" price="100" type="stackableitem" productid="2495" count="1" icons="2495.png" />
+		 
+		 <offer name="Golden Helmet" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="2471" count="1" icons="2471.png" />
+		 <offer name="Golden Armor" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="2466" count="1" icons="2466.png" />
+		 <offer name="Golden Legs" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="2470" count="1" icons="2470.png" />
+ 		 <offer name="Golden Boots" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="2646" count="1" icons="2646.png" />
+		 
+		 <offer name="Dragon Scale Helmet" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="2506" count="1" icons="2506.png" />
+		 <offer name="Dragon Scale Mail" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="2492" count="1" icons="2492.png" />
+		 <offer name="Dragon Scale Legs" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="2469" count="1" icons="2469.png" />
+ 		 <offer name="Dragon Scale Boots" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="11118" count="1" icons="11118.png" />
+		 <offer name="Great Shield" description="Become a Duro, spend all your TC!" price="100" type="stackableitem" productid="2522" count="1" icons="2522.png" />
+		 
+		 <offer name="Crown Helmet" description="Become a Duro, spend all your TC!" price="20" type="stackableitem" productid="2491" count="1" icons="2491.png" />
+		 <offer name="Crown Armor" description="Become a Duro, spend all your TC!" price="20" type="stackableitem" productid="2487" count="1" icons="2487.png" />
+		 <offer name="Crown Legs" description="Become a Duro, spend all your TC!" price="20" type="stackableitem" productid="2488" count="1" icons="2488.png" />
+ 		 <offer name="Crown Shield" description="Become a Duro, spend all your TC!" price="10" type="stackableitem" productid="2519" count="1" icons="2519.png" />
+
+		 <offer name="Blessed Shield" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="2523" count="1" icons="2523.png" />
+		 <offer name="Boots of Haste" description="Become a Duro, spend all your TC!" price="40" type="stackableitem" productid="2195" count="1" icons="2195.png" />
+		 <offer name="Pair Soft Boots" description="Become a Duro, spend all your TC!" price="60" type="stackableitem" productid="2640" count="1" icons="2640.png" />
+		 <offer name="Yalahari Mask" description="Become a Duro, spend all your TC!" price="150" type="stackableitem" productid="9778" count="1" icons="9778.png" />
+		 <offer name="Werewolf Helmet" description="Become a Duro, spend all your TC!" price="120" type="stackableitem" productid="24718" count="1" icons="24718.png" />
+		 <offer name="Depth Galea" description="Become a Duro, spend all your TC!" price="100" type="stackableitem" productid="15408" count="1" icons="15408.png" />
+
+	
+	</category>
+	
+	<category name="Assorted Items" description="Assorted Items" state="new" icons="Category_usefulthings.png">
+			
+		<offer name="crystalline token" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="18423" count="1" icons="18423.png" />
+		<offer name="midnight panther doll" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="24317" count="1" icons="24317.png" />
+		<offer name="Evilina" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="13567" count="1" icons="13567.png" />
+		<offer name="black knight doll" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="23806" count="1" icons="23806.png" />
+		<offer name="dread doll" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="13559" count="1" icons="13559.png" />
+		<offer name="assassin doll" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="24331" count="1" icons="24331.png" />
+		<offer name="adventurer doll" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="24777" count="1" icons="24777.png" />
+		<offer name="crystal table" description="Become a Duro, spend all your TC!" price="90" type="stackableitem" productid="9975" count="1" icons="9975.png" />
+		<offer name="football" description="Become a Duro, spend all your TC!" price="40" type="stackableitem" productid="2109" count="1" icons="2109.png" />
+
+	</category>
+
+
+	
+</gamestore>

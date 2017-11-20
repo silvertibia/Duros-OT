@@ -1,0 +1,51 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Night King" nameDescription="a Night King" race="undead" experience="1000000" speed="500" manacost="0">
+    <health now="90000" max="90000"/>
+	<look type="463" head="87" body="85" legs="86" feet="85" addons="3" mount="630" />
+    <targetchange interval="4000" chance="70"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+	    <flag rewardboss="1" />
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="4"/>
+        <flag staticattack="90"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+	    <attack name="Eternal Winter" interval="2000" chance="20" min="-1200" max="-1800"/>
+        <attack name="melee" interval="2000" skill="10" attack="550"/>
+		<attack name="physical" interval="2000" chance="20" range="7" min="1300" max="1500">
+			<attribute key="shootEffect" value="spear" />
+		</attack>
+    </attacks>
+    <defenses armor="15" defense="15"/>
+    <summons maxSummons="3">
+
+    <summon name="White walker" interval="2000" chance="50"/>
+    <summon name="White walker" interval="2000" chance="50"/>
+	<summon name="White Walker" interval="2000" chance="50"/>
+
+  </summons>
+    <voices interval="5000" chance="40">
+        <voice sentence="I am the night king"/>
+        <voice sentence="..."/>
+        <voice sentence="I will govern the seven kingdoms"/>
+        <voice sentence="Httt..."/>
+    </voices>
+		<loot>
+		<item id="2160" countmax="100" chance="75000" /><!-- crystal coin -->
+		<item id="2148" countmax="40" chance="75000" /><!-- gold coin -->
+		<item id="2666" countmax="4" chance="66333" /><!-- meat -->
+		<item id="2671" countmax="5" chance="50000" /><!-- ham -->
+		<item id="2111" countmax="22" chance="50000" /><!-- snowball -->
+		<item id="2644" chance="333" /><!-- bunny slippers -->
+	</loot>
+</monster>

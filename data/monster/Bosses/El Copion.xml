@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="El Copion" nameDescription="Copia outfits" race="blood" experience="10000000" speed="400" manacost="0">
+    <health now="1000000" max="1000000"/>
+    <look type="2" head="95" body="94" legs="94" feet="19" corpse="0"/>
+    <targetchange interval="2000" chance="100"/>
+    <strategy attack="100" defense="0"/>
+	<flags>
+		<flag rewardboss="1" />
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="3000" skill="300" attack="200"/>
+		<attack name="manadrain" interval="1500" chance="15" range="1" min="-0" max="-2570"/>
+		<attack name="Hell's Core" interval="1000" chance="20" min="-1000" max="-2670"/>
+		<attack name="Eternal Winter" interval="1000" chance="20" min="-1200" max="-2400"/>
+		<attack name="lifedrain" interval="2000" chance="15" range="7" target="1" min="-0" max="-1270">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+      <defenses armor="0" defense="0">
+            <defense name="all outfits" interval="1500" chance="100"/>
+      </defenses>
+	  <elements>
+		<element holyPercent="10"/>
+		<element energyPercent="20"/>
+		<element deathPercent="30"/>
+		<element icePercent="20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="10">
+		<voice sentence="No me importa nada!"/>
+		<voice sentence="Tengo mil rostros"/>
+		<voice sentence="Malditos simios"/>
+		<voice sentence="Soy el copion y los matare a todos"/>
+		<voice sentence="BIEHAAAAAA!"/>
+	</voices>
+	<loot>
+		<item id="16101" countmax="2" chance="10000" /> <!-- tibia coins -->
+		<item id="16107" countmax="1" chance="100000" />
+		<item id="16106" countmax="1" chance="1000" />
+		<item id="2160" countmax="200" chance="100000" />
+	</loot>
+	
+</monster>

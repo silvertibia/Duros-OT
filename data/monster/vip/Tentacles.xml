@@ -1,0 +1,84 @@
+<monster name="Tentacles" nameDescription="a Tentacles" race="venom" experience="17000" speed="450" manacost="0">
+<health now="4500" max="4500" />
+<look type="365" corpse="6068"/>
+<targetchange interval="2000" chance="7" />
+<strategy attack="100" defense="20" />
+<flags>
+<flag rewardboss="0" />
+<flag summonable="0" />
+<flag attackable="1" />
+<flag hostile="1" />
+<flag illusionable="0" />
+<flag convinceable="0" />
+<flag pushable="0" />
+<flag canpushitems="1" />
+<flag canpushcreatures="1" />
+<flag targetdistance="1" />
+<flag runonhealth="0" />
+</flags>
+  	<attacks>
+    		<attack name="melee" interval="2000" skill="70" attack="80" />
+    		<attack name="melee" interval="2000" chance="2" skill="153" attack="100" />
+    		<attack name="physical" interval="2000" chance="14" range="7" target="1" min="0" max="-1165">
+      			<attribute key="shootEffect" value="death" />
+      			<attribute key="areaEffect" value="mortarea" />
+    		</attack>
+    		<attack name="death" interval="2000" chance="12" length="8" spread="0" min="-350" max="-1220">
+      			<attribute key="areaEffect" value="redspark" />
+    		</attack>
+    		<attack name="death" interval="2000" chance="13" radius="4" target="0" min="-225" max="-675">
+      			<attribute key="areaEffect" value="redspark" />
+    		</attack>
+    		<attack name="physical" interval="2000" chance="9" length="8" spread="3" min="-0" max="-700">
+      			<attribute key="areaEffect" value="explosionarea" />
+    		</attack>
+  	</attacks>
+
+  	<defenses armor="30" defense="30">
+    		<defense name="healing" interval="2000" chance="16" min="130" max="205">
+      			<attribute key="areaEffect" value="redshimmer" />
+    		</defense>
+    		<defense name="effect" interval="2000" chance="9">
+      			<attribute key="areaEffect" value="greenshimmer" />
+    		</defense>
+    		<defense name="effect" interval="2000" chance="10">
+      			<attribute key="areaEffect" value="redspark" />
+    		</defense>
+    		<defense name="speed" interval="2000" chance="12" speedchange="532" duration="4000">
+      			<attribute key="areaEffect" value="redshimmer" />
+    		</defense>
+  	</defenses>
+
+<immunities>
+<immunity paralyze="1" />
+<immunity invisible="1" />
+</immunities>
+<voices interval="3000" chance="10">
+<voice sentence="Slurp!"/>
+<voice sentence="See how weak you are?"/>
+<voice sentence="I tried to save you, but there's no use."/>
+<voice sentence="My soul, power, hatred, knowledge and fury are far away."/>
+</voices>
+	<loot>
+		<item id="6558" chance="35060" /><!-- concentrated demonic blood -->
+		<item id="6500" chance="10720" /><!-- demonic essence -->
+		<item id="10577" chance="4970" /><!-- mystical hourglass -->
+		<item id="2148" countmax="271" chance="990200" /><!-- gold coin -->
+		<item id="2152" countmax="20" chance="5030" /><!-- platinum coin -->
+		<item id="8473" chance="10050" /><!-- ultimate health potion -->
+		<item id="7590" chance="9670" /><!-- great mana potion -->
+		<item id="25184" chance="300" />
+		<item id="2521" chance="3140" /><!-- dark shield -->
+		<item id="7418" chance="630" /><!-- nightmare blade -->
+		<item id="2550" chance="9650" /><!-- scythe -->
+		<item id="8910" chance="860" /><!-- underworld rod -->
+		<item id="7896" chance="310" /><!-- glacier kilt -->
+		<item id="9810" chance="2610" /><!-- rusty armor -->
+		<item id="5022" countmax="4" chance="1400" /><!-- orichalcum pearl -->
+		<item id="8889" chance="270" /><!-- skullcracker armor -->
+		<item id="6300" chance="280" /><!-- death ring -->
+		
+		
+	
+	</loot>
+</monster>

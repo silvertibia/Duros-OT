@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dura" nameDescription="Dura" race="blood" experience="10000000" speed="300" manacost="0">
+	<health now="900000" max="900000"/>
+	<look type="155" head="78" body="0" legs="105" feet="99" addons="0" corpse="6081"/>
+	<targetchange interval="2000" chance="10"/>
+	<flags>
+		<flag rewardboss="1" />
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="3000" skill="300" attack="200"/>
+		<attack name="manadrain" interval="2000" chance="15" range="1" min="-0" max="-1570"/>
+		<attack name="Hell's Core" interval="2000" chance="20" min="-1000" max="-1670"/>
+		<attack name="Eternal Winter" interval="2000" chance="20" min="-1200" max="-1800"/>
+		<attack name="lifedrain" interval="2000" chance="15" range="7" target="1" min="-0" max="-1270">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="20">
+		<defense name="healing" interval="1000" chance="1" min="0" max="10000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="healing" interval="3500" chance="30" min="1000" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="outfit" interval="2000" chance="10" monster="Devovorga" duration="10000">
+			<attribute key="areaEffect" value="energy"/>
+		</defense>
+		<defense name="outfit" interval="2000" chance="10" monster="Chayenne" duration="10000">
+			<attribute key="areaEffect" value="energy"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="10"/>
+		<element energyPercent="20"/>
+		<element deathPercent="30"/>
+		<element icePercent="20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="10">
+		<voice sentence="No me importa nada!"/>
+		<voice sentence="Estoy dura bieha"/>
+		<voice sentence="Malditos simios"/>
+		<voice sentence="ALO?"/>
+		<voice sentence="BIEHAAAAAA!"/>
+	</voices>
+	<loot>
+		<item id="16101" countmax="2" chance="100000" /> <!-- tibia coins -->
+		<item id="16107" countmax="2" chance="100000" />
+		
+	
+	</loot>
+</monster>

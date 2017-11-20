@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="soon boogy's zone will be under attack" />
+  <announce delay="80000" type="Event" message="a great threat will fall on everyone be careful" />
+  <announce delay="100000" type="Event" message="The king of the dragons is present and thirsty for blood in boogy's zone" />
+  
+  <!--Single Spawns-->
+  <script delay="100000" script="dragonking.lua" />
+</raid>

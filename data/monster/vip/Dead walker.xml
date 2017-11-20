@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dead Walker" nameDescription="a Dead walker" race="undead" experience="10000" speed="200" manacost="0">
+    <health now="8000" max="8000"/>
+	<look type="100" corpse="6029" />
+    <targetchange interval="4000" chance="70"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="90"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="20" attack="420"/>
+		<attack name="physical" interval="2000" chance="20" range="7" min="200" max="530">
+			<attribute key="shootEffect" value="bolt" />
+		</attack>
+    </attacks>
+    <defenses armor="15" defense="15"/>
+
+    <voices interval="5000" chance="40">
+        <voice sentence="Mst.... klll...."/>
+        <voice sentence="Whrrrr... ssss.... mmm.... grrrrl"/>
+        <voice sentence="Dnnnt... cmmm... clsrrr...."/>
+        <voice sentence="Httt.... hmnnsss..."/>
+    </voices>
+	
+</monster>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Duro Wall" nameDescription="a Duro Wall" race="blood" experience="100000" speed="0" manacost="480">
+   <health now="130000" max="130000"/>
+   <look typeex="5392" corpse="0"/>
+   <targetchange interval="5000" chance="30"/>
+   <strategy attack="70" defense="30"/>
+   <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="0"/>
+      <flag canpushcreatures="0"/>
+      <flag targetdistance="1"/>
+      <flag staticattack="20"/>
+      <flag runonhealth="0"/>
+   </flags>
+   <attacks>
+
+   </attacks>
+   <defenses armor="2" defense="3">
+   </defenses>
+   <elements>
+   </elements>
+
+   <immunities>
+      <immunity invisible="1"/>
+
+   </immunities>
+   <voices interval="5000" chance="10">
+      <voice sentence="Dieeee!"/>
+   </voices>
+
+
+</monster>

@@ -1,0 +1,715 @@
+----- 11/10/2017 23:34:17 - Cerapio (190.44.109.178) -----
+Debug Assertion 1100 Control.cpp 1530
+Wed Oct 11 23:33:54 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in ESP
+Processor: Intel CORE I3-3
+Video Card: Intel (R) HD GR
+Last Packet Types: 001 156 161 160 120 121 121 120 120 120
+Last Packet: 023 002 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32318,32272,6]
+Player Name: Bieha (DurosOT)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+Network.cpp 873: exception occurred, reason:
+Control.cpp 1535: exception occurred (Type = 1) (MainWindow = 03F8C8D0), reason:
+Control.cpp 1530: unknown packet type during game (Type = 1)
+Comment: 
+----- 13/10/2017 23:47:20 - Shanderly (191.115.17.104) -----
+Debug Assertion 1147 Utils.cpp 602
+Fri Oct 13 22:46:23 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 232 238 238 238 180 180 180 161 180 180
+Last Packet: 023 002 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32356,32258,7]
+Player Name: Shanderly (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 049 050 046 052 051 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 232) (MainWindow = 0309F040), reason:
+Communication.cpp 5533: exception occurred, reason:
+Network.cpp 443: exception occurred, reason:
+Utils.cpp 602: assertion failed (Position = 7247) (Size-Length = -17811), reason:
+Position<=Size-Length
+Comment: 
+----- 13/10/2017 23:48:01 - Love (191.115.17.104) -----
+Debug Assertion 1147 Utils.cpp 602
+Fri Oct 13 22:47:20 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 232 238 238 238 180 180 160 162 161 162
+Last Packet: 023 003 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32356,32258,7]
+Player Name: Shanderly (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 049 050 046 052 051 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 232) (MainWindow = 033CE690), reason:
+Communication.cpp 5533: exception occurred, reason:
+Network.cpp 443: exception occurred, reason:
+Utils.cpp 602: assertion failed (Position = 6651) (Size-Length = -18460), reason:
+Position<=Size-Length
+Comment: 
+----- 14/10/2017 17:39:34 - Ola Ke Ase (191.115.216.185) -----
+Debug Assertion 1147 Utils.cpp 602
+Fri Oct 13 22:56:56 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 232 238 238 238 180 180 160 162 161 162
+Last Packet: 023 007 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32356,32258,7]
+Player Name: Shanderly (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 049 050 046 052 051 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 232) (MainWindow = 032DE690), reason:
+Communication.cpp 5533: exception occurred, reason:
+Network.cpp 443: exception occurred, reason:
+Utils.cpp 602: assertion failed (Position = 6651) (Size-Length = -18460), reason:
+Position<=Size-Length
+Comment: 
+----- 14/10/2017 18:08:02 - Ola Ke Ase (191.115.216.185) -----
+Debug Assertion 1147 tcontainerview.cpp 25
+Sat Oct 14 17:06:55 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 110 030 109 109 109 109 109 101 109 109
+Last Packet: 110 002 239 097 255 000 000 008 001 001 000 009 000 000 000 008
+Player Position: [32843,31653,10]
+Player Name: Ola Ke Ase (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 049 050 046 052 051 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 110) (MainWindow = 0305F1E8), reason:
+Communication.cpp 3167: exception occurred, reason:
+tcontainerview.cpp 25: assertion failed (m_Name.c_str() = ), reason:
+static_cast<int>(m_Name.size()) > 0
+Comment: 
+----- 22/10/2017 17:07:51 - Andrea (189.218.189.164) -----
+Debug Assertion 1135 Creatures.cpp 1712
+Sun Oct 22 15:07:25 2017
+Graphic Engine: OpenGL (1)
+Operating System: Windows 10 in MEX
+Processor: Intel Celeron N3050 @ 1
+Video Card: Intel (R) HD GR
+Last Packet Types: 164 162 164 160 245 162 120 160 245 161
+Last Packet: 023 094 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32351,32245,7]
+Player Name: Andrea (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 051 053 046 050 051 054 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1561: exception occurred (Type = 164) (MainWindow = 038FAF60), reason:
+Communication.cpp 3972: exception occurred, reason:
+Creatures.cpp 1712: assertion failed (Spell = 191) (Delay = 550000), reason:
+Spell < SPELL_BEYONDLAST
+Comment: 
+----- 22/10/2017 17:07:58 - Andrea (189.218.189.164) -----
+Debug Assertion 1135 Creatures.cpp 1712
+Sun Oct 22 15:07:25 2017
+Graphic Engine: OpenGL (1)
+Operating System: Windows 10 in MEX
+Processor: Intel Celeron N3050 @ 1
+Video Card: Intel (R) HD GR
+Last Packet Types: 164 162 164 160 245 162 120 160 245 161
+Last Packet: 023 094 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32351,32245,7]
+Player Name: Andrea (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 051 053 046 050 051 054 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1561: exception occurred (Type = 164) (MainWindow = 038FAF60), reason:
+Communication.cpp 3972: exception occurred, reason:
+Creatures.cpp 1712: assertion failed (Spell = 191) (Delay = 550000), reason:
+Spell < SPELL_BEYONDLAST
+Comment: 
+----- 24/10/2017 01:57:14 - Rp De Charmin (23.27.14.215) -----
+Debug Assertion 1100 Map.cpp 539
+Mon Oct 23 21:55:10 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in MEX
+Processor: AMD C-60 APU 
+Video Card: ATI Radeon HD AMD 6290 
+Last Packet Types: 106 031 100 040 020 000 000 000 000 000
+Last Packet: 106 090 125 067 121 008 001 097 000 000 000 000 000 116 141 003
+Player Name: Isco [0 viewers] (Hornera Global)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 051
+Player.cpp 344: exception occurred, reason:
+Network.cpp 873: exception occurred, reason:
+Control.cpp 1535: exception occurred (Type = 106) (MainWindow = 0458ADF8), reason:
+Communication.cpp 2629: exception occurred (rx = 32106) (ry = 31057), reason:
+Map.cpp 539: assertion failed (rx = 32106), reason:
+In(rx,0,MAPSIZE_X-1) [bug0000013]
+Comment: 
+----- 24/10/2017 23:39:33 - Pyro Flamm (187.250.62.201) -----
+Debug Assertion 1135 Creatures.cpp 1712
+Tue Oct 24 19:39:20 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 10 in USA
+Processor: Intel Core i5 -3230M @ 
+Video Card: Intel (R) HD GR
+Last Packet Types: 164 160 245 162 120 160 245 162 152 099
+Last Packet: 023 123 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32351,32245,7]
+Player Name: Letruz (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 055 049 046 050 049 057 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1561: exception occurred (Type = 164) (MainWindow = 0386AE68), reason:
+Communication.cpp 3972: exception occurred, reason:
+Creatures.cpp 1712: assertion failed (Spell = 191) (Delay = 586000), reason:
+Spell < SPELL_BEYONDLAST
+Comment: 
+----- 26/10/2017 18:55:38 - Dardoica Ossa (200.74.55.101) -----
+Debug Assertion 1100 Control.cpp 1530
+Thu Oct 26 16:55:17 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in CHL
+Processor: AMD A6-9220 R
+Video Card: ATI Radeon AMD (TM) 
+Last Packet Types: 001 156 161 160 120 121 121 121 121 121
+Last Packet: 023 026 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32369,32240,7]
+Player Name: Dardoica Ossa (DurosOT)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+Network.cpp 873: exception occurred, reason:
+Control.cpp 1535: exception occurred (Type = 1) (MainWindow = 03E7AE88), reason:
+Control.cpp 1530: unknown packet type during game (Type = 1)
+Comment: 
+----- 27/10/2017 16:56:32 - Sig Sauer (186.167.244.138) -----
+Debug Assertion 1100 Objects.cpp 640
+Fri Oct 27 15:56:04 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in VEN
+Processor: Intel Celeron 847 @ 1.1
+Video Card: Intel (R) HD GR
+Last Packet Types: 100 015 010 023 031 100 040 020 000 000
+Last Packet: 023 055 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32369,32240,7]
+Player Name: Sig Sauer (DurosOT)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+Network.cpp 873: exception occurred, reason:
+Control.cpp 1535: exception occurred (Type = 100) (MainWindow = 03298F98), reason:
+Communication.cpp 2524: exception occurred (PlayerX = 32369) (PlayerY = 32240), reason:
+Communication.cpp 2502: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 2481: exception occurred (Type = 25696) (OldType = 20712), reason:
+Objects.cpp 643: exception occurred (Type = 25696) (Flag = 10), reason:
+Objects.cpp 640: assertion failed (Type = 25696) (ObjectProperties->high() = 25202), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Comment: 
+----- 28/10/2017 23:54:54 - Love (191.115.162.61) -----
+Debug Assertion 1147 Control.cpp 1583
+Sat Oct 28 22:54:12 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 003 149 170 180 131 131 180 131 109 170
+Last Packet: 149 232 092 001 064 003 003 168 000 000 016 000 000 000 000 000
+Player Position: [32300,31368,14]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 054 049 046 050 056 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 3) (MainWindow = 0313F040), reason:
+Control.cpp 1583: unknown packet type during game (Type = 3)
+Comment: 
+----- 29/10/2017 16:39:27 - Love (191.115.82.190) -----
+Debug Assertion 1147 Control.cpp 1583
+Sun Oct 29 15:38:28 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 003 149 029 131 131 131 170 131 170 131
+Last Packet: 149 027 145 001 064 003 003 028 001 000 016 000 000 000 000 000
+Player Position: [32371,32240,7]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 054 049 046 050 056 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 3) (MainWindow = 0324F140), reason:
+Control.cpp 1583: unknown packet type during game (Type = 3)
+Comment: 
+----- 29/10/2017 18:06:16 - Sig Sauer (186.167.244.251) -----
+Debug Assertion 1147 Control.cpp 1583
+Sun Oct 29 17:05:01 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in VEN
+Processor: Intel Celeron 847 @ 1.1
+Video Card: Intel (R) HD GR
+Last Packet Types: 083 106 108 106 108 106 108 106 108 106
+Last Packet: 023 044 001 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32339,32210,7]
+Player Name: Lady Tsunade [0 viewers] (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 054 049 046 050 056 058 055 049 055 051
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 83) (MainWindow = 03466DB8), reason:
+Control.cpp 1583: unknown packet type during game (Type = 83)
+Comment: 
+----- 30/10/2017 14:18:56 - Sig Sauer (186.167.251.137) -----
+Debug Assertion 1147 Graphics.cpp 1573
+Mon Oct 30 13:17:44 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in VEN
+Processor: Intel Celeron 847 @ 1.1
+Video Card: Intel (R) HD GR
+Last Packet Types: 106 109 109 108 109 106 131 109 109 109
+Last Packet: 106 089 126 239 125 006 001 098 000 113 002 001 064 100 002 012
+Player Position: [32352,32244,7]
+Player Name: Sig Sauer (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 054 048 046 050 053 048 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Player.cpp 458: exception occurred, reason:
+Control.cpp 2280: exception occurred (MessageType: 0 MaW: 3426DB8 MoW: 59F970), reason:
+Control.cpp 2275: exception occurred, reason:
+Control.cpp 545: exception occurred (Force?1:0 = 0), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+Graphics.cpp 1573: standard exception occurred, reason:
+boost::filesystem::remove: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: "C:\Users\makalister\AppData\Roaming\Tibia\ImageCache\Category_Mounts.png\15093718939240324"
+Comment: 
+----- 31/10/2017 17:07:42 - Mane Love (187.254.107.180) -----
+Debug Assertion 1135 Creatures.cpp 1712
+Tue Oct 31 14:07:01 2017
+Graphic Engine: OpenGL (1)
+Operating System: Windows 7 Starter Edition 32 Bit in MEX
+Processor: Intel Celeron 420 @ 1.6
+Video Card: NVIDIA GeForce 7050 / NV
+Last Packet Types: 164 162 160 245 162 120 160 245 161 161
+Last Packet: 023 036 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [31001,1426,7]
+Player Name: Mane Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 051 056 046 049 057 055 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1561: exception occurred (Type = 164) (MainWindow = 029EC390), reason:
+Communication.cpp 3972: exception occurred, reason:
+Creatures.cpp 1712: assertion failed (Spell = 194) (Delay = 4000), reason:
+Spell < SPELL_BEYONDLAST
+Comment: 
+----- 31/10/2017 17:07:55 - Mane Love (187.254.107.180) -----
+Debug Assertion 1135 Creatures.cpp 1712
+Tue Oct 31 14:07:42 2017
+Graphic Engine: OpenGL (1)
+Operating System: Windows 7 Starter Edition 32 Bit in MEX
+Processor: Intel Celeron 420 @ 1.6
+Video Card: NVIDIA GeForce 7050 / NV
+Last Packet Types: 164 160 245 162 120 160 245 161 161 161
+Last Packet: 023 037 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [31001,1426,7]
+Player Name: Mane Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 051 056 046 049 057 055 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1561: exception occurred (Type = 164) (MainWindow = 02ABC908), reason:
+Communication.cpp 3972: exception occurred, reason:
+Creatures.cpp 1712: assertion failed (Spell = 194) (Delay = 2000), reason:
+Spell < SPELL_BEYONDLAST
+Comment: 
+----- 03/11/2017 15:47:09 - Love (191.115.17.35) -----
+Debug Assertion 1147 Graphics.cpp 1573
+Fri Nov 03 14:46:18 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 109 107 109 252 025 109 107 109 107 109
+Last Packet: 109 195 120 067 005 007 002 195 120 068 005 007 000 000 000 000
+Player Position: [30913,1350,7]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 051 054 046 051 053 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Player.cpp 458: exception occurred, reason:
+Control.cpp 2280: exception occurred (MessageType: 0 MaW: 312E690 MoW: 621C718), reason:
+Control.cpp 2275: exception occurred, reason:
+Control.cpp 545: exception occurred (Force?1:0 = 0), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+Graphics.cpp 1573: standard exception occurred, reason:
+boost::filesystem::remove: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: "C:\Users\usuario\AppData\Roaming\Tibia\ImageCache\New_Products.png\15097310342324642"
+Comment: 
+----- 03/11/2017 15:50:38 - Love (191.115.17.35) -----
+Debug Assertion 1147 Graphics.cpp 1573
+Fri Nov 03 14:49:39 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 180 160 245 170 162 180 160 131 180 108
+Last Packet: 180 022 041 000 085 115 105 110 103 032 111 110 101 032 111 102
+Player Position: [30926,1355,7]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 051 054 046 051 053 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Player.cpp 458: exception occurred, reason:
+Control.cpp 2280: exception occurred (MessageType: 0 MaW: 321E690 MoW: 62CE728), reason:
+Control.cpp 2275: exception occurred, reason:
+Control.cpp 545: exception occurred (Force?1:0 = 0), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+Graphics.cpp 1573: standard exception occurred, reason:
+boost::filesystem::remove: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: "C:\Users\usuario\AppData\Roaming\Tibia\ImageCache\New_Products.png\15097310342324642"
+Comment: 
+----- 03/11/2017 15:54:23 - Love (191.115.17.35) -----
+Debug Assertion 1147 Graphics.cpp 1573
+Fri Nov 03 14:53:02 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 252 025 223 242 242 251 170 160 162 165
+Last Packet: 025 000 001 252 012 000 078 101 119 032 080 114 111 100 117 099
+Player Position: [32879,32525,11]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 051 054 046 051 053 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Player.cpp 458: exception occurred, reason:
+Control.cpp 2280: exception occurred (MessageType: 0 MaW: 301E690 MoW: 628E728), reason:
+Control.cpp 2275: exception occurred, reason:
+Control.cpp 545: exception occurred (Force?1:0 = 0), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+Graphics.cpp 1573: standard exception occurred, reason:
+boost::filesystem::remove: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: "C:\Users\usuario\AppData\Roaming\Tibia\ImageCache\New_Products.png\15097310342324642"
+Comment: 
+----- 03/11/2017 16:35:32 - Love (191.115.17.35) -----
+Debug Assertion 1147 Objects.cpp 605
+Fri Nov 03 15:35:03 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 142 143 109 107 109 107 146 109 109 030
+Last Packet: 143 100 000 000 016 212 001 247 001 142 100 000 000 016 037 000
+Player Position: [28463,29974,7]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 051 054 046 051 053 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Player.cpp 458: exception occurred, reason:
+Control.cpp 2280: exception occurred (MessageType: 0 MaW: 32BE690 MoW: 3AB7B8), reason:
+Control.cpp 2275: exception occurred, reason:
+Control.cpp 545: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 134: exception occurred (Surface = 1), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+MapWindow.cpp 981: exception occurred (Surface = 1), reason:
+MapWindow.cpp 558: exception occurred (Obj = 4601), reason:
+MapWindow.cpp 1319: exception occurred (posx = 224) (posy = 32), reason:
+MapWindow.cpp 1221: exception occurred (i = 0) (Creatures[i]->OutfitType = 37), reason:
+MapWindow.cpp 1186: exception occurred, reason:
+MapWindow.cpp 1501: exception occurred (posx = 224) (posy = 32), reason:
+Objects.cpp 1093: exception occurred (Number = 37), reason:
+Objects.cpp 605: assertion failed (PatternZ = 2) (FrameGroup.PatternDepth = ), reason:
+In(PatternZ, 1, FrameGroup.PatternDepth)
+Comment: 
+----- 03/11/2017 16:36:24 - Love (191.115.17.35) -----
+Debug Assertion 1147 Objects.cpp 605
+Fri Nov 03 15:35:29 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 160 183 160 180 180 180 172 172 233 236
+Last Packet: 160 189 036 189 036 250 075 000 000 200 252 008 000 166 099 016
+Player Position: [28463,29974,7]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 051 054 046 051 053 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Player.cpp 458: exception occurred, reason:
+Control.cpp 1817: exception occurred (MaW: 316E690 MoW: 0 ), reason:
+Control.cpp 545: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 134: exception occurred (Surface = 1), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+MapWindow.cpp 981: exception occurred (Surface = 1), reason:
+MapWindow.cpp 558: exception occurred (Obj = 4601), reason:
+MapWindow.cpp 1319: exception occurred (posx = 224) (posy = 32), reason:
+MapWindow.cpp 1221: exception occurred (i = 0) (Creatures[i]->OutfitType = 37), reason:
+MapWindow.cpp 1186: exception occurred, reason:
+MapWindow.cpp 1501: exception occurred (posx = 224) (posy = 32), reason:
+Objects.cpp 1093: exception occurred (Number = 37), reason:
+Objects.cpp 605: assertion failed (PatternZ = 2) (FrameGroup.PatternDepth = ), reason:
+In(PatternZ, 1, FrameGroup.PatternDepth)
+Comment: 
+----- 05/11/2017 16:27:29 - Love (191.115.212.143) -----
+Debug Assertion 1147 Control.cpp 1583
+Sun Nov 05 15:26:50 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 003 149 170 180 140 131 162 030 131 131
+Last Packet: 149 212 155 001 064 003 003 063 000 000 016 131 100 126 214 125
+Player Position: [32358,32220,7]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 052 054 046 050 050 055 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 3) (MainWindow = 03267168), reason:
+Control.cpp 1583: unknown packet type during game (Type = 3)
+Comment: 
+----- 05/11/2017 17:05:30 - Love (191.115.212.143) -----
+Debug Assertion 1147 Control.cpp 1583
+Sun Nov 05 16:04:18 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 003 149 101 109 109 109 101 109 101 109
+Last Packet: 149 201 156 001 064 003 003 063 000 000 016 131 241 125 140 122
+Player Position: [32249,31366,14]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 052 054 046 050 050 055 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 3) (MainWindow = 03237268), reason:
+Control.cpp 1583: unknown packet type during game (Type = 3)
+Comment: 
+----- 05/11/2017 17:50:37 - [GM] Alis (191.115.212.143) -----
+Debug Assertion 1147 Control.cpp 1583
+Sun Nov 05 16:47:02 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 003 149 109 131 131 131 131 131 131 131
+Last Packet: 149 049 159 001 064 003 003 085 000 000 016 131 011 126 121 122
+Player Position: [32275,31351,14]
+Player Name: [GM] Alis (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 052 054 046 050 050 055 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 3) (MainWindow = 03237168), reason:
+Control.cpp 1583: unknown packet type during game (Type = 3)
+Comment: 
+----- 05/11/2017 20:37:44 - Love (191.115.212.143) -----
+Debug Assertion 1147 Control.cpp 1583
+Sun Nov 05 19:37:01 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 003 149 180 140 180 180 133 180 131 140
+Last Packet: 131 085 126 215 125 007 018 140 071 187 001 064 041 131 085 126
+Player Position: [32347,32215,7]
+Player Name: Love (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 052 054 046 050 050 055 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 3) (MainWindow = 032B7068), reason:
+Control.cpp 1583: unknown packet type during game (Type = 3)
+Comment: 
+----- 05/11/2017 22:00:43 - [GM] Alis (191.115.212.143) -----
+Debug Assertion 1147 Control.cpp 1583
+Sun Nov 05 20:59:42 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 003 149 143 180 109 109 109 140 102 109
+Last Packet: 149 011 194 001 064 003 003 134 000 000 016 140 174 163 001 064
+Player Position: [33087,31915,12]
+Player Name: [GM] Alis (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 052 054 046 050 050 055 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 3) (MainWindow = 033071C0), reason:
+Control.cpp 1583: unknown packet type during game (Type = 3)
+Comment: 
+----- 07/11/2017 18:33:52 - [GOD] Maxziro (201.223.212.211) -----
+Debug Assertion 1135 tcontainerview.cpp 25
+Tue Nov 07 18:33:21 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 10 in ESP
+Processor: Intel Core i5 -2450M @ 
+Video Card: Intel (R) HD GR
+Last Packet Types: 110 109 109 109 162 160 160 029 109 106
+Last Packet: 110 001 192 095 255 000 000 008 001 001 000 000 000 000 000 000
+Player Position: [33551,31030,6]
+Player Name: [GOD] Maxziro (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 049 050 046 050 049 049 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1561: exception occurred (Type = 110) (MainWindow = 03B82A88), reason:
+Communication.cpp 3167: exception occurred, reason:
+tcontainerview.cpp 25: assertion failed (m_Name.c_str() = ), reason:
+static_cast<int>(m_Name.size()) > 0
+Comment: 
+----- 07/11/2017 18:34:03 - [GM] Alis (191.115.181.16) -----
+Debug Assertion 1147 tcontainerview.cpp 25
+Tue Nov 07 17:33:29 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 110 180 029 102 109 162 180 162 029 131
+Last Packet: 110 001 192 095 255 000 000 008 001 001 000 000 000 000 000 000
+Player Position: [33551,31030,6]
+Player Name: [GM] Alis (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 049 050 046 050 049 049 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 110) (MainWindow = 0327F098), reason:
+Communication.cpp 3167: exception occurred, reason:
+tcontainerview.cpp 25: assertion failed (m_Name.c_str() = ), reason:
+static_cast<int>(m_Name.size()) > 0
+Comment: 
+----- 07/11/2017 21:49:32 - [GOD] Maxziro (201.223.212.211) -----
+Debug Assertion 1135 tcontainerview.cpp 25
+Tue Nov 07 21:48:54 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 10 in ESP
+Processor: Intel Core i5 -2450M @ 
+Video Card: Intel (R) HD GR
+Last Packet Types: 110 160 160 160 131 131 131 131 131 131
+Last Packet: 110 000 231 100 255 000 000 008 001 001 000 006 000 000 000 006
+Player Position: [32371,32252,7]
+Player Name: [GOD] Maxziro (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 049 050 046 050 049 049 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1561: exception occurred (Type = 110) (MainWindow = 03A46C90), reason:
+Communication.cpp 3167: exception occurred, reason:
+tcontainerview.cpp 25: assertion failed (m_Name.c_str() = ), reason:
+static_cast<int>(m_Name.size()) > 0
+Comment: 
+----- 09/11/2017 18:11:36 - Shanderly (191.115.201.217) -----
+Debug Assertion 1147 Communication.cpp 2500
+Thu Nov 09 17:10:47 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 100 031 100 040 020 000 000 000 000 000
+Last Packet: 100 208 121 027 128 007 000 000 095 041 255 000 255 000 000 245
+Player Name: Shanderly (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 050 048 052 046 050 052 051 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 100) (MainWindow = 033E7168), reason:
+Communication.cpp 2565: exception occurred (PlayerX = 31184) (PlayerY = 32795), reason:
+Communication.cpp 2543: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 2522: exception occurred (Type = 0) (OldType = 98), reason:
+Communication.cpp 2500: client recieved field with type 0 (6,13,0)
+Comment: 
+----- 10/11/2017 14:25:31 - Waksho (189.217.19.230) -----
+Debug Assertion 1147 Control.cpp 1583
+Fri Nov 10 11:24:48 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in USA
+Processor: Intel Core 2 DUO P7550
+Video Card: X11 WINDO
+Last Packet Types: 001 149 104 109 109 109 109 160 160 140
+Last Packet: 149 042 092 001 064 001 001 131 122 131 156 123 014 015 131 121
+Player Position: [33650,31649,13]
+Player Name: Waksho (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 056 052 046 050 049 049 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 1) (MainWindow = 016F7F78), reason:
+Control.cpp 1583: unknown packet type during game (Type = 1)
+Comment: 
+----- 10/11/2017 15:28:11 - [GM] Alis (191.115.197.24) -----
+Debug Assertion 1147 Communication.cpp 2500
+Fri Nov 10 14:27:32 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 100 100 108 100 108 101 109 101 109 029
+Last Packet: 100 201 111 191 116 003 000 000 103 000 255 098 000 197 246 000
+Player Position: [28617,29887,5]
+Player Name: [GM] Alis (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 056 052 046 050 049 049 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 100) (MainWindow = 031E7168), reason:
+Communication.cpp 2565: exception occurred (PlayerX = 28617) (PlayerY = 29887), reason:
+Communication.cpp 2543: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 2522: exception occurred (Type = 0) (OldType = 98), reason:
+Communication.cpp 2500: client recieved field with type 0 (9,1,3)
+Comment: 
+----- 14/11/2017 10:46:09 - Shanderly (191.115.235.156) -----
+Debug Assertion 1147 Communication.cpp 2500
+Tue Nov 14 09:45:31 2017
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in ESP
+Processor: Dual Core Intel Pentium T4400 @ 2
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 100 031 100 040 020 000 000 000 000 000
+Last Packet: 100 208 121 027 128 007 000 000 095 041 255 000 255 000 000 245
+Player Name: Shanderly (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 053 055 046 050 050 050 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Network.cpp 951: exception occurred, reason:
+Control.cpp 1588: exception occurred (Type = 100) (MainWindow = 031FE690), reason:
+Communication.cpp 2565: exception occurred (PlayerX = 31184) (PlayerY = 32795), reason:
+Communication.cpp 2543: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 2522: exception occurred (Type = 0) (OldType = 98), reason:
+Communication.cpp 2500: client recieved field with type 0 (6,13,0)
+Comment: 
+----- 17/11/2017 17:23:21 - Kurwaq Jr (189.202.116.107) -----
+Debug Assertion 1147 NWin32Exception.cpp 55
+Fri Nov 17 14:22:26 2017
+Graphic Engine: OpenGL (1)
+Operating System: Windows XP Professional in MEX
+Processor: Intel Pentium 4 2.80GHZ
+Video Card: Intel (R) 82865
+Last Packet Types: 183 160 180 180 180 172 172 233 236 232
+Last Packet: 023 011 000 000 016 050 000 003 015 021 013 128 003 169 252 003
+Player Position: [32368,32241,7]
+Player Name: Kurwaq Jr (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 051 052 046 049 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Player.cpp 458: exception occurred, reason:
+Control.cpp 1817: exception occurred (MaW: 984BBB8 MoW: 0 ), reason:
+Control.cpp 545: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 134: exception occurred (Surface = 1), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 103: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 565: exception occurred (Surface = 1) (Child = 09C17C40), reason:
+ContentWindowsAutomap.cpp 361: exception occurred (Surface = 1), reason:
+SurfaceGL.cpp 1462: exception occurred, reason:
+SurfaceGL.cpp 1423: exception ocurred (ToSurface: 1 FromSurface: 5 Texture: 4 DebuggingProgress: 1), reason:
+SurfaceGL.cpp 664: exception ocurred (_Surface: 1 CurrentTargetSurface: 5 Texture: 4 Function: glCopyTexSubImage2D), reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (write attempt at 00000000)
+Comment: 
+----- 17/11/2017 17:34:34 - Kurwaq Jr (189.202.116.107) -----
+Debug Assertion 1147 NWin32Exception.cpp 55
+Fri Nov 17 14:33:56 2017
+Graphic Engine: OpenGL (1)
+Operating System: Windows XP Professional in MEX
+Processor: Intel Pentium 4 2.80GHZ
+Video Card: Intel (R) 82865
+Last Packet Types: 180 140 180 140 183 160 180 180 180 172
+Last Packet: 140 209 204 000 064 100 180 027 100 126 247 125 007 079 000 000
+Player Position: [32367,32241,7]
+Player Name: Kurwaq Jr (DurosOT)
+Player Action: 050 048 049 046 050 050 051 046 049 051 052 046 049 058 055 049 055 050
+Player.cpp 354: exception occurred, reason:
+Player.cpp 458: exception occurred, reason:
+Control.cpp 1817: exception occurred (MaW: 984BBB8 MoW: 0 ), reason:
+Control.cpp 545: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 134: exception occurred (Surface = 1), reason:
+GUI.cpp 1850: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 103: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 565: exception occurred (Surface = 1) (Child = 09B57DA8), reason:
+ContentWindowsAutomap.cpp 361: exception occurred (Surface = 1), reason:
+SurfaceGL.cpp 1462: exception occurred, reason:
+SurfaceGL.cpp 1423: exception ocurred (ToSurface: 1 FromSurface: 5 Texture: 4 DebuggingProgress: 1), reason:
+SurfaceGL.cpp 664: exception ocurred (_Surface: 1 CurrentTargetSurface: 5 Texture: 4 Function: glCopyTexSubImage2D), reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (write attempt at 00000000)
+Comment: 

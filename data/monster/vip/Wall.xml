@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quest wall" nameDescription="a wall" race="blood" experience="100000" speed="0" manacost="480">
+   <health now="70000" max="70000"/>
+   <look typeex="5392" corpse="0"/>
+   <targetchange interval="5000" chance="30"/>
+   <strategy attack="70" defense="30"/>
+   <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="0"/>
+      <flag canpushcreatures="0"/>
+      <flag targetdistance="1"/>
+      <flag staticattack="20"/>
+      <flag runonhealth="0"/>
+   </flags>
+   <attacks>
+
+   </attacks>
+   <defenses armor="2" defense="3">
+   </defenses>
+   <elements>
+   </elements>
+
+   <immunities>
+      <immunity invisible="1"/>
+
+   </immunities>
+   <voices interval="5000" chance="10">
+      <voice sentence="Dieeee!"/>
+   </voices>
+   <loot>
+      <item id="2148" countmax="20" chance="100000"/>
+      <item id="2666" countmax="8" chance="100000"/>
+      <item id="2152" countmax="2" chance="30000"/>
+   </loot>
+
+</monster>
