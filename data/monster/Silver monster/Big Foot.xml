@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Big Foot" nameDescription="a Big Foot" race="blood" experience="15000" speed="550" manacost="0">
+	<health now="9500" max="9500" />
+	<look type="110" corpse="6038" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="0" max="-1000" />
+		<attack name="physical" interval="1500" chance="15" range="7" min="0" max="-880">
+			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="energy" interval="1500" chance="12" length="3" spread="3" min="0" max="-875">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+	</attacks>
+	<defenses armor="50" defense="50" />
+	<elements>
+		<element icePercent="-1" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Yooodelaaahooohooo!" />
+		<voice sentence="Yooodelaaaheeeheee!" />
+	</voices>
+	<loot>
+		<item id="2160" countmax="1" chance="75000" /><!-- gold coin -->
+		<item id="2148" countmax="40" chance="75000" /><!-- gold coin -->
+		<item id="2666" countmax="4" chance="66333" /><!-- meat -->
+		<item id="2671" countmax="5" chance="50000" /><!-- ham -->
+		<item id="2111" countmax="22" chance="50000" /><!-- snowball -->
+		<item id="2644" chance="333" /><!-- bunny slippers -->
+	</loot>
+</monster>
